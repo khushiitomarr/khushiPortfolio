@@ -12,6 +12,15 @@ const projects = [
     image: "/finance.png",
   },
   {
+    title: "Portfolio Website",
+    description:
+      "Designed and developed a modern personal portfolio showcasing projects, skills, and experience with smooth animations and responsive UI.",
+    tech: ["React", "Tailwind", "Vercel"],
+    github: "https://github.com/khushiitomarr/khushiPortfolio",
+    live: "https://khushi-portfolio-tau-eight.vercel.app/",
+    image: "/portfolio.png",
+  },
+  {
     title: "GitHub User Search App",
     description:
       "Developed a web app to search GitHub users and explore their profiles using GitHub API with clean UI.",
