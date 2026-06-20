@@ -20,9 +20,10 @@ const Hero = () => {
 
         {/* Subtitle */}
         <p className="text-gray-300 text-lg md:text-xl mb-8">
-          Transforming ideas into beautiful, high-performance web experiences with{" "}
-          <span className="text-blue-400 font-semibold">React</span>.
+         Full-Stack Developer specializing in 
+         <span className="text-blue-400 font-semibold"> React, Node.js, and MongoDB</span>. Building modern, scalable, and user-focused web applications.
         </p>
+         <p className="text-gray-100 text-sm md:text-m mb-8">Open to Full-Time, Internship, and Entry-Level Software Developer Opportunities.</p>
 
         {/* Button */}
 
@@ -42,7 +43,7 @@ const Hero = () => {
 
   {/* Download Resume */}
   <a
-    href="/khushitomarresume.pdf"
+    href="/khushitomar.pdf"
     download
     className="flex items-center gap-2 border border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-black transition duration-300 w-fit"
   >

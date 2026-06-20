@@ -13,20 +13,22 @@ const About = () => {
 
         {/* Main Text */}
         <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-6">
-          I'm <span className="text-white font-semibold">Khushi Tomar</span>, a passionate 
-          <span className="text-blue-400 font-semibold"> Frontend Developer</span> who loves building 
-          modern, responsive, and user-friendly web applications.
+          I'm <span className="text-white font-semibold">Khushi Tomar</span>, a Computer Science graduate and
+          <span className="text-blue-400 font-semibold"> Full-Stack Developer, </span>passionate about building modern, responsive, and user-friendly web applications.
         </p>
 
         <p className="text-gray-400 text-md md:text-lg mb-6">
-          I enjoy transforming ideas into reality using clean, efficient code and continuously improving my skills.
+         I enjoy transforming ideas into real-world solutions using React.js, JavaScript, Node.js, Express.js, MongoDB, and Tailwind CSS. Through internships and personal projects, I've gained hands-on experience creating interactive interfaces, integrating APIs, and developing scalable web applications.
         </p>
 
-        <p className="text-gray-400 text-md md:text-lg">
-          Currently focused on mastering 
-          <span className="text-blue-400"> React</span>, strengthening problem-solving with 
-          <span className="text-blue-400"> C++</span>, and exploring full-stack development.
+        <p className="text-gray-400 text-md  mb-6 md:text-lg">
+          Driven by curiosity and continuous learning, I enjoy building real-world applications, solving complex problems, and turning innovative ideas into meaningful digital experiences.
         </p>
+        
+        <p className="text-gray-400 text-md md:text-lg">
+          I'm constantly learning new technologies, improving my problem-solving skills, and exploring better ways to build impactful digital experiences. My goal is to grow as a software developer and contribute to products that make a meaningful difference.
+        </p>
+
 
       </div>
     </section>

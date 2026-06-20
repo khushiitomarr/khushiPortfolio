@@ -5,7 +5,7 @@ const Experience = () => {
     <section className="min-h-screen px-6 py-24">
       
       {/* Heading */}
-      <h2 className="text-3xl md:text-5xl font-bold text-white text-center mb-12">
+      <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-10">
         Experience
       </h2>
 
