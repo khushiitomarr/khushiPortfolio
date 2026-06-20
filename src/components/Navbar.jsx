@@ -9,6 +9,7 @@ const Navbar = () => {
     { name: "Skills", link: "#skills" },
     { name: "Projects", link: "#projects" },
     { name: "Experience", link: "#experience" },
+    { name: "Education", link: "#education" },
     { name: "Contact", link: "#contact" },
   ];
 
@@ -26,7 +27,7 @@ backdrop-blur-2xl bg-gradient-to-r from-white/5 via-white/10 to-white/5 border-b
         </a>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-5 lg:gap-8">
           {navLinks.map((item) => (
             <a
               key={item.name}

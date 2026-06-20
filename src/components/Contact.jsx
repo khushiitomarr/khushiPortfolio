@@ -10,7 +10,10 @@ import {
 
 const Contact = () => {
   return (
-    <section className="min-h-screen px-6 py-24 flex items-center justify-center">
+    <section
+      id="contact"
+      className="min-h-screen scroll-mt-24 px-6 py-24 flex items-center justify-center"
+    >
 
       <div className="max-w-3xl w-full text-center">
 

@@ -56,7 +56,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="px-6 py-20">
+    <section id="projects" className="scroll-mt-24 px-6 py-20">
       {/* Heading */}
       <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-4">
         Featured Projects

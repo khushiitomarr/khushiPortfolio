@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <section className="min-h-screen px-6 py-24">
+    <section id="experience" className="min-h-screen scroll-mt-24 px-6 py-24">
       
       {/* Heading */}
       <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-10">

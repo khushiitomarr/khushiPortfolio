@@ -29,7 +29,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="min-h-screen px-6 py-20"
+      className="min-h-screen scroll-mt-24 px-6 py-20"
     >
       {/* Heading */}
       <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-14">
