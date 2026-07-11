@@ -8,6 +8,7 @@ import {
   FaGithub,
   FaNodeJs,
   FaBootstrap,
+  FaRobot,
 } from "react-icons/fa";
 
 import {
@@ -18,6 +19,9 @@ import {
   SiPostman,
   SiVercel,
   SiRender,
+  SiChartdotjs,
+  SiAxios,
+  SiJsonwebtokens,
 } from "react-icons/si";
 
 import { TbApi } from "react-icons/tb";
@@ -34,6 +38,8 @@ const skillCategories = [
       { name: "React.js", icon: <FaReact /> },
       { name: "Tailwind CSS", icon: <SiTailwindcss /> },
       { name: "Bootstrap", icon: <FaBootstrap /> },
+      { name: "React Router", icon: <FaReact /> },
+      { name: "Axios", icon: <SiAxios /> },
     ],
   },
 
@@ -43,13 +49,29 @@ const skillCategories = [
       { name: "Node.js", icon: <FaNodeJs /> },
       { name: "Express.js", icon: <SiExpress /> },
       { name: "REST APIs", icon: <TbApi /> },
-      { name: "JWT Auth", icon: <RiShieldKeyholeLine /> },
+      { name: "JWT Auth", icon: <SiJsonwebtokens /> },
+      { name: "bcrypt", icon: <RiShieldKeyholeLine /> },
     ],
   },
 
   {
     title: "Database",
-    skills: [{ name: "MongoDB", icon: <SiMongodb /> }],
+    skills: [
+      { name: "MongoDB", icon: <SiMongodb /> },
+      { name: "Mongoose", icon: <SiMongodb /> },
+      { name: "MongoDB Atlas", icon: <SiMongodb /> },
+    ],
+  },
+
+  {
+    title: "APIs & AI",
+    skills: [
+      { name: "Groq AI", icon: <FaRobot /> },
+      { name: "SerpAPI", icon: <TbApi /> },
+      { name: "Chart.js", icon: <SiChartdotjs /> },
+      { name: "jsPDF", icon: <TbApi /> },
+      { name: "html2canvas", icon: <TbApi /> },
+    ],
   },
 
   {
@@ -66,6 +88,8 @@ const skillCategories = [
       { name: "VS Code", icon: <VscCode /> },
       { name: "Vercel", icon: <SiVercel /> },
       { name: "Render", icon: <SiRender /> },
+      { name: "Vite", icon: <VscCode /> },
+      { name: "npm", icon: <FaNodeJs /> },
     ],
   },
 ];

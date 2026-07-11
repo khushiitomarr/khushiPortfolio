@@ -3,6 +3,22 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
+  title: "ResumeAI",
+  description:
+    "AI-powered MERN resume builder enabling users to create, edit, preview, and manage multiple resumes with real-time updates, secure authentication, and one-click PDF export.",
+  tech: [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "JWT"
+  ],
+  github: "https://github.com/khushiitomarr/ResumeAI.git",
+  live: "https://resume-ai-theta-flax.vercel.app/",
+  image: "/resumeai.png",
+},
+  {
     title: "QueryX",
     type: "Team Project",
     description:
